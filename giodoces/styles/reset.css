@@ -1,0 +1,70 @@
+/* Reset CSS */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Remove default padding */
+body {
+  padding: 0;
+}
+
+/* Remove default `h1` margin */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Remove text indentation from dl, dd elements */
+dl dl,
+dl dd,
+ol ol,
+ul ul {
+  margin: 0;
+}
+
+/* Reset links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Reset button */
+button {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+/* Remove border on images inside links in IE 10/11 */
+img {
+  border-style: none;
+}
